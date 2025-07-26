@@ -1,0 +1,32 @@
+# Root level
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+.vscode/
+coverage/
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.env.local
+
+# Test coverage
+coverage/
+*.lcov
+
+# OS / IDE junk
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
